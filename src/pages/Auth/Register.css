@@ -42,7 +42,8 @@ a,
     /* background-image: url(../../../../images/hall-3.jpg); */
     background-size: cover;
     height: 100vh;
-    position: relative;
+    width: 100%;
+    position: absolute;
 }
 .register::before
 ,.login::before{
@@ -100,7 +101,7 @@ form .form-control{
     background-color: #fff;
 }
 .hallinfo .info-form textarea{
-    height: 200px;
+    height: 150px;
     resize: none;
 }
 
