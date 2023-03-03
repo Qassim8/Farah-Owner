@@ -20,13 +20,13 @@ body{
     color: rgb(12, 136, 12);
 }
 .back-green{
-    background-color: rgb(12, 136, 12);
+    background-color: rgb(13, 202, 23);
 }
 .red{
     color: rgb(241, 47, 47);
 }
 .back-red{
-    background-color: rgb(241, 47, 47);
+    background-color: rgb(241, 60, 47);
 }
 a,
 .black{
@@ -137,8 +137,8 @@ form .form-control{
     width: 5px;
     background-color: var(--main-color);
 }
-.photos .add-photo .open{
-    background-color: rgb(7, 151, 7);
+.photos .add-photo input[type='file']{
+    display: none;
 }
 .photos .add-photo .btn:hover{
     background-color: var(--alt-color);
@@ -156,6 +156,9 @@ form .form-control{
 }
 .booking .order-info{
     background-color: #fff;
+}
+.booking .table {
+    
 }
 /* End Booking */
 /* Start Side-bar */

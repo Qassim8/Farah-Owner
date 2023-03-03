@@ -6,6 +6,7 @@ import HallInfo from "./pages/HallInfo/HallInfo";
 import Photos from "./pages/HallInfo/Photos";
 import Booking from "./pages/Booking/Booking";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BookingDetails from "./pages/Booking/BookingDetails";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<HallInfo />} />
         <Route path="/photos" element={<Photos />} />
-        <Route path="/booking" element={<Booking />} />
+        <Route path="/booking" element={<BookingDetails />} />
       </Routes>
     </BrowserRouter>
   );

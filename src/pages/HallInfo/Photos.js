@@ -26,7 +26,8 @@ const Photos = () => {
             </ol>
           </div>
           <div className="add-photo d-flex p-3">
-            <input type="file" name="choose" className="open"></input>
+            <input type="file" className="open"></input>
+            <label htmlFor="file" className="py-2 px-3 back-green text-white">اختر الصور</label>
             <button className="btn py-2 mx-3 back-color text-white rounded-0">
               اضافة الصور
             </button>
